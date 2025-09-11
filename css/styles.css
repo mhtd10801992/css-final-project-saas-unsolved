@@ -13,10 +13,11 @@ body {
 }
 
 
-.trigram img {
-  width: 24px;
-  height: 24px;
+.trigram {
+  height: fit-content;
+  width: 50px;
   display: block;
+  color: #000;
 }
 
 
@@ -59,6 +60,31 @@ body {
   
 
 }
+.footer-item {
+  display: flex;
+  align-items: center;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #808080;
+  line-height: 25px;
+  list-style: none;
+}
+
+.footer-item a {
+  color: #808080;
+  text-decoration: none;
+  margin-left: 8px; /* spacing between icon and text */
+}
+
+.footer-item a:hover {
+  color: #000; /* optional: darken on hover */
+}
+
+.footer-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
 
 
 .play-btn:hover {
@@ -91,6 +117,9 @@ padding-top: 20px;}
   gap: 20px; /* Optional: spacing between nav items */
 }
 
+.logo-upload {
+width: 150px;
+}
 
 .nav-section ul {
   display: flex;
@@ -356,12 +385,9 @@ input {
   display: flex;
   gap: 16px; /* space between dropdowns */
   flex-direction: row;
-  margin-bottom: 30px;sc
+  margin-bottom: 30px;
 }
 
-.form-group2  {
-  flex: 1; /* makes each dropdown take equal width */
-}
 
 .equal-dropdown {
   width: 100%;
@@ -540,6 +566,13 @@ input {
 
 
 @media screen and (min-width: 1023px) {
+  body {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+
+
+  }
   
 
  .section-1 {
@@ -743,7 +776,9 @@ border-bottom: 2px solid rgb(154, 150, 150);
 
 }
 
-
+.highlight-box{
+  width:70px;
+}
 .logo-inside {
  
   width: 80%;
@@ -859,7 +894,7 @@ border-bottom: 2px solid rgb(154, 150, 150);
   justify-content: left;
   background-color:transparent;
   padding: 20px;
-  gap: 40px;
+  gap: 60px;
   flex-direction: row;
 
   
@@ -895,7 +930,7 @@ border-bottom: 2px solid rgb(154, 150, 150);
   align-items: flex-start;
   
   color: #808080;
-  gap:120px;
+  gap:100px;
   margin-top: 0;
   
   
@@ -913,6 +948,7 @@ border-bottom: 2px solid rgb(154, 150, 150);
 .footer-column {
   display:flex;
   flex-direction: column;
+  width: fit-content;
   
  list-style-type: none;
  line-height: 25px;
@@ -1018,6 +1054,11 @@ ul {
 /* Tablet: 768px - 1023px */
 @media (max-width: 1023px) and (min-width: 768px) {
 
+  body {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
 
   .section-1 {
   display: flex;
@@ -1027,6 +1068,7 @@ ul {
   background: url(/css-final-project-saas-unsolved/assets/bg/background-top.svg);
   background-size: 100% 50%;     /* Stretch image to full width, half height */
   background-position: top; 
+  background-repeat: no-repeat;
 
 }
 
@@ -1156,8 +1198,9 @@ ul {
   flex-direction: column;
   width: 50%;
   gap: 20px;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   margin-left: 30px;
 }
 
@@ -1226,10 +1269,7 @@ ul {
   margin-bottom: 25px;
 }
 
-.subset-2 {
-  background-color: #ffff;
-  padding-top: 50px;
-}
+
 
 .e3-text {
   display:flex;
@@ -1320,6 +1360,7 @@ ul {
   width: 100%;
   height: auto; /* Let it grow based on children */
   padding-bottom: 30px;
+  gap: 30px;
 }
 
 .circle-container {
@@ -1491,6 +1532,9 @@ ul {
 
   .subset-1, .subset-2 {
     width: 100%;
+    display:flex;
+    justify-items: center;
+    align-items: center;
   }
 
   .section-4 {
@@ -1539,6 +1583,10 @@ ul {
 }
 
 
+.sectionf1-c{
+
+  text-align: left;
+}
 
 .address-text {
   font-size: 13px;
@@ -1661,11 +1709,19 @@ ul {
 /*Mobile*//*Mobile*/
 
 @media (max-width: 767px) and (min-width: 360px)  {
- 
+ body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right:10px;
+
+}
  
 .section-1{ background-image: url('/css-final-project-saas-unsolved/assets/bg/background-top.svg') ;
 
-  background-size: 100% 100vh;   /* Width 100%, height 100px */
+  background-size: 100% 60%;   /* Width 100%, height 100px */
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -1771,6 +1827,8 @@ ul {
 }
 
  .subset-1, .subset-2 {
+  background-color: transparent;
+
     width: 100%;
   }
 
@@ -1801,7 +1859,8 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    width: 50vh;
+    width: 40vh;
+    margin-left: 30px;
     
   }
 
@@ -1900,6 +1959,8 @@ ul {
   width: 100%;
   height: 30vh;
   padding-bottom: 70px;
+  background-color:transparent;
+  
 }
 
 .logo-wrapper {
@@ -2307,25 +2368,31 @@ padding-top: 30px;
 }
 .sectionf1-b, .sectionf1-c {
   width: 100%;
+  text-align: center;
 }
 
-
+.sectionf1-b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 .sectionf1-left {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
   gap: 20px;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   text-align: center;
 }
 
 
 .subset-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   height: auto; /* Let it grow based on children */
   padding-bottom: 30px;
@@ -2374,10 +2441,7 @@ padding-top: 30px;
   justify-self: center;
 }
 
-.subset-2 {
-  background-color: #ffff;
-  padding-top: 50px;
-}
+
 
 .e3-text {
   display:flex;
@@ -2422,9 +2486,9 @@ padding-top: 30px;
 }
 .section-d {
  
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   height: fit-content;
-  padding-bottom: 40px;
+  
 }
   
 .section-e {
