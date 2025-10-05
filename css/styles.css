@@ -1,2515 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SaaS company empowering teams with web development tools. Try for free!">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" href="./assets/logos/logo-front.svg" type="image/svg+xml">
+  <title>SaaS Company</title>
+</head>
 
-body {
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
- 
-}
+<body>
 
-
-.header-top {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px; /* Optional: adjust spacing */
-  background-color: #fff; /* Optional: background color */
-}
-
-
-.trigram {
-  height: fit-content;
-  width: 50px;
-  display: block;
-  color: #000;
-}
-
-
-
-.subset-1,
-.subset-2 {
-  flex: 1;
-  width: 100%;
-  height: auto; /* Let them grow based on content */
-  padding: 20px;
-}
-
-
-.subhead {
-  font-size: 20px;
-  font-weight: 400;
-  color: #848282;
-  text-align: left;
-  padding-top: 2px;
-}
-
-
-
-
-.play-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* space between icon and text */
-  border: none;
-  border-radius: 30px;
-  background-color: #007BFF; /* Bootstrap blue */
-  color: white;
-  font-size: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-align: center;
-  white-space: nowrap;
+<header class="header-top">
   
-
-}
-.footer-item {
-  display: flex;
-  align-items: center;
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  color: #808080;
-  line-height: 25px;
-  list-style: none;
-}
-
-.footer-item a {
-  color: #808080;
-  text-decoration: none;
-  margin-left: 8px; /* spacing between icon and text */
-}
-
-.footer-item a:hover {
-  color: #000; /* optional: darken on hover */
-}
-
-.footer-icon {
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-}
-
-
-
-.play-btn:hover {
-  background-color: #0056b3;
-}
-
-.play-icon {
-  width: 24px;
-  height: 24px;
-  fill: white;
-  flex-shrink: 0;
-}
-
-.play-btn {
-  max-width: fit-content;
-}
-
-.play4 {display: flex;
-flex-direction: row;
-gap:30px;
-padding-top: 20px;}
-
-.logo-upload {
-  flex: 0 0 auto;
-}
-
-.nav-section {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Optional: spacing between nav items */
-}
-
-.logo-upload {
-width: 150px;
-}
-
-.nav-section ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 15px;
-}
-
-.nav-section li a {
-  text-decoration: none;
-  color: #333; /* Optional: link color */
-}
-
-.buy-now-btn {
-  margin-left: 20px;
-  padding: 10px 20px;
-  background-color: #007BFF; /* Optional: button color */
-  color: white;
-  border: none;
-  border-radius: 18px;
-  cursor: pointer;
-}
-
-.buy-now-btn:hover {
-  background-color: #0056b3; /* New color on hover */
-}
-
-/*section-e*/
-
-
-
-.section-e1 {
-  width: 35%;
-  padding: 40px;
-  box-sizing: border-box;
- display: flex;
-  flex-direction: column;
-  gap: 20px;
- 
-  padding-top: 20px;
- 
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */  
-
-}
-
-.e3-text {
-  display:flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
-
-
-.section-e2 {
-  height: 100px;
-  background-color: #e0e0e0;
-  
-}
-
-.section-e3 {
-  display: flex;
-  color: #1d1c1c;
-  font-size: 50px;
-  font-weight: 500;
-}
-.section-e31 {
-  display: flex;
-  color: #848282;
-  
-}
-
-
-
-.textbelowprice {
-  margin-top: 40px;
-  color: #848282;
-  width: 270px;
-}
-
-
-.section-e4 {
-  
-  padding: 10px;
-  font-size: 16px;
-  margin-left: 10px;
-}
-
-.section-e5 {
-  
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-
-
-.play-button2:hover{
-  background-color: #0056b3;
-}
-
-
-.below-button-box {
-  padding: 10px;
-  font-size: 16px;
-}
-
-/*section-e2*/
-
-
-.sectione2-text-row {
-  display: flex;
-  align-items: center;
-  width:fit-content;
-  
-}
-
-
-
-
-
-.sketch-tag {
-  padding: 4px 12px;
-  background-color: #eee;
-  border-radius: 20px;
-  font-size: 14px;
-  color: #333;
-  border: 1px solid #ccc;
-}
-
-
-
-
-.row {
-  display: flex;
-  width: 100%;
-}
-
-
-
-.sectione2-logo {
-  display: flex;
-  background-color:transparent;
-  height: 130px;
-  width: 200px;
-  justify-items: left;
-  padding-left: 10px;
-  margin-bottom: -40px;
-}
-
-.sectione2-text {
-  background-color:transparent;
-  padding: 10px;
-  text-align: left;
-  font-weight: 700;
-  width: 200px;
-}
-
-
-
-/* section-f */
-
-
-
-
-
-
-
-.icon-wrapper1 svg {
-  fill: #007BFF;
-}
-
-
-.sectionf1-b {
-  display:flex;
-  color: #848282;
-}
-
-.section-f2 {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.logo-circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 2px solid #000; /* Optional: border color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo-circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.textf-1 {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 35px;
-
-}
-.textf-2 {
-  color:#848282;
-  font-size: 14px;
-  font-weight: 700;
-  padding-bottom: 15px;
-
-}
-
-/*sectionf2*/
-
-.section-f2 {
-  display:flex;
-  flex-direction: column;
-  background-color: #fff;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 10px;
-  padding: 50px;
-}
-
-.form-row {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 15px;
-}
-
-.form-group {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.full-width {
-  flex: 1;
-}
-
-label {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-input {
-  padding: 8px;
-  font-size: 14px;
-}
-
-.styled-input {
-  border-radius: 5px;      /* Rounded corners */
-  background-color: #e0e0e0; /* Light grey background */
-  border: 1px solid #ccc;   /* Optional: light border */
-  padding: 8px;             /* Optional: spacing inside the box */
-  width: 100%;              /* Optional: full width */
-  box-sizing: border-box;   /* Ensures padding doesn't affect width */
-}
-.form-row2  {
-  display: flex;
-  gap: 16px; /* space between dropdowns */
-  flex-direction: row;
-  margin-bottom: 30px;
-}
-
-
-.equal-dropdown {
-  width: 100%;
-  padding: 8px;
-  border-radius: 8px;
-  background-color: #e0e0e0;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-.styled-textarea {
-  border-radius: 8px;         /* Rounded corners */
-  border: 1px solid #808080;  /* Grey border */
-  padding: 10px;              /* Inner spacing */
-  width: 100%;                /* Full width */
-  box-sizing: border-box;     /* Prevent overflow from padding */
-  resize: vertical;           /* Allow vertical resizing only */
-  background-color: #fff;     /* Optional: white background */
-  font-family: inherit;   
-  height: 170px;
-  border-color:#ccc;
-  
-}
-
-.footer-column .highlight {
-  color: blue;
-  display: flex;
-  flex-wrap: nowrap; 
- 
-}
-
-.checkbox-row {
-  margin-top: 0; /* Align to top margin */
-  display: flex;
-  align-items: flex-start; /* Align items to the top */
-  padding-top: 10px; /* Optional: add spacing from top */
-}
-
-.checkbox-row input[type="checkbox"] {
-  width: 25px;       /* Adjust checkbox width */
-  height: 25px;      /* Adjust checkbox height */
-  margin-right: 10px;
-  margin-top: 30px;  /* Align checkbox to top */
-  
-}
-
-.checkbox-row label {
-  margin-top: 0;     /* Align label to top */
-  line-height: 20px; /* Match checkbox height for vertical alignment */
-  font-size: 13px;
-  color: #848282;
-  margin-top: 30px;
-}
-
-
-.text-grey {
-  color: grey;
-  text-decoration: underline dotted;
-}
-
-.text-blue {
-  color: blue;
-  text-decoration: underline dotted;
-}
-
-.button-row3 {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-}
-
-.get-started-btn {
-  background-color: #007BFF; /* Blue color */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.get-started-btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-}
-
-/*footer section-g*/
-
-
-
-
-/* Default: trigram visible */
-.trigram {
-  display: block;
-}
-
-/*the section-b*/
-
-    .section-a {
-      margin-bottom: 30px;
-      margin-top: 50px;
-    }
-
-    .header-text2 {
-      font-size: 32px;
-      font-weight: bold;
-      justify-self: center
-      
-    }
-
-    .section-b {
-      margin-bottom: 30px;
-      font-size: 16px;
-      color: #848282;
-      justify-self:center;
-    }
-
-    .section-c {
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-top: 40px;
-      padding-bottom: 40px;
-    }
-
-    
-    .section-d {
-      display: flex;
-      align-items: center;
-      justify-self: center;
-      flex-direction: column;
-      margin-bottom: 50px;
-
-    }
-
-    .text-d {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-    .text-d2 {
-      color: #848282;
-
-    }
-
-    
-.career-row {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Space between the two items */
-  display: flex;
-  flex-wrap: nowrap; 
-}
-
-.highlight-box {
-  background-color: #007bff;
-  color: white;
-  padding: 3px 3px;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 10px;
-  display: flex;
-  flex-wrap: nowrap; 
-}
-
-
-
-/* Desktop mode: hide trigram */
-@media screen and (min-width: 1024px) {
-  .trigram {
-    display: none;
-  }
-}
-
-
-@media screen and (min-width: 1023px) {
-  body {
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 100px;
-
-
-  }
-  
-
- .section-1 {
-  display: flex;
-  flex-direction: row; /* Stack children vertically */
-  width: 100%;
-  height: 45vh; /* Let it grow based on content */
-  background: url(/css-final-project-saas-unsolved/assets/bg/background-top.svg);
-  background-position: center;
-  
-
-}
-
-
-.sectionf1-c {
-  font-style: italic;
-  color: #fff;
-  padding-right: 50px;
-  margin-right: 80px;
-  line-height: 28px;
-  width: 320px;
-  border-top: #848282 solid 2px;
-  padding-top: 30px;
-
-}
-
-.section-f1, .section-f2 {
-  flex: 1;
-  box-sizing: border-box;
- margin-right: 40px;
- height: fit-content;
-}
-
-.section-f1 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-left: 80px;
- 
-
-}
-
-.sectionf1-a,
-.sectionf1-b,
-.sectionf1-c,
-.sectionf1-d {
-  
-  background-color:transparent;
- margin-left: 60px;
- padding-bottom: 30px;
-   
-}
-
-.text-row {
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* Space between the two texts */
-  margin-top: 10px;
-  font-size: 13px;
-}
-
-.section2-e {
-  width: calc(50% - 20px); /* Two columns per row */
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: transparent;
-  height: 200px;
-  
-}
-
-.section-3 {
-  display: flex;
-  height:fit-content;
-  background-color: #003366;
-  margin-top: 30px;
-}
-
-.section-ee {
-  display: flex;
-  flex-wrap: wrap; /* Enables wrapping */
-  gap: 40px;
-  width:auto;
-  margin-left: 100px;
-  height: 500px;
-  margin-right: 30px;
-}
-.sectionf-1 {
-  display: flex;
-  flex-direction: column;
-  gap:30px;
-  margin-top: 20px;
-}
-
-.subset-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto; /* Let it grow based on children */
-  padding-bottom: 30px;
-}
-
-.circle-container {
-      text-align: center;
-      margin: 10px;
-      position: relative;
-      font-weight: bold ;
-      justify-self: flex-start;
-    }
-
-    .circle {
-      width: 80px;
-      height: 80px;
-      background-color: #b2d3f4;
-      border-radius: 50%;
-      position: relative;
-      margin-bottom: 10px;
-      justify-self: center;
-    }
-
-    .circle::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 10px;
-      height: 10px;
-      background-color: #003366;
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .circle-label {
-      font-size: 14px;
-      color: #333;
-    }
-
-    /* Horizontal line connecting centers */
-    .horizontal-line {
-      position: absolute;
-      top: 50px; /* Half of circle height */
-      left: 20px;
-      right: 12px;
-      height: 2px;
-      background-color: #b2d3f4;
-      z-index: 0;
-    }
-
-
-.subset-1,
-.subset-2 {
-  flex: 1;
-  width: 100%;
-  height: auto; /* Let them grow based on content */
-  padding-bottom: -80px;
-  
-}
-
-.sectione2-text2 {
-  background-color:transparent;
-  padding: 10px;
-  text-align: left;
-  color: #848282;
-  width: 250px;
-  margin-right: 40px;
-  padding-right: 20px;
-  display: flex;
-  
-}
-
-.sectione2-text {
-  display: flex;
-  width: fit-content;
-  flex-wrap: nowrap;
-}
-.logo-grid {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 70px;
-}
-
-.logo-wrapper {
-  
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(249, 247, 247);
-  position: absolute;
-}
-.e3-text{
-  padding-top: 30px;
-  padding-bottom: 30px;
-   
-border-bottom: 2px solid rgb(154, 150, 150);
-  margin-bottom: 20px;
-
-}
-
-.highlight-box{
-  width:70px;
-}
-.logo-inside {
- 
-  width: 80%;
-  height: 80%;
-  object-fit: contain;
-}
-
-/* Positioning classes */
-.top-left {
-  width: 60px;
-  height: 60px;
-  top: 5%;
-  left: 10%;
-  
-}
-
-.top-right {
-  width: 90px;
-  height: 90px;
-  top: 5%;
-  right: 5%;
-  
-}
-
-.center {
-  width: 80px;
-  height: 80px;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.bottom-left {
-  bottom: 0;
-  left: 0;
-  margin-left: 15%;
-  margin-bottom: 6%;
-  width: 70px;
-  height: 70px;
-}
-
-.bottom-right {
-  width: 70px;
-  height: 70px;
-  bottom: 0;
-  right: 0;
-  right: 10%;
-}
-
-.mid-left {
-  width: 80px;
-  height: 80px;
-  top: 55%;
-  left: 1%;
-  transform: translateY(-60%);
-
-}
-
-.mid-right {
-  width: 80px;
-  height: 80px;
-  top: 50%;
-  right: 40%;
-  transform: translateY(-50%);
-}
-.play-btn2{
-  display: flex;
-  align-items: center;
-  gap: 8px; /* space between icon and text */
-  border: none;
-  border-radius: 30px;
-  background-color: #007BFF; /* Bootstrap blue */
-  color: white;
-  font-size: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-align: center;
-  white-space: nowrap;
- padding: 10px;  
- margin-right: 30px;
-}
-.play-btn2:hover{
-  background-color: #0056b3;
-}
-
-.below-button {
-  margin-top: 10px;
-  color: #848282;
-  font-size: small;
-}
-
-.button2 {
-  display: flex;
-  flex-direction: column;
-  width:55%;
-  padding-top: 30px;
-  
-}
-.sectionf1-a  {
-  display: flex;
-  font-size: 32px;
-  font-weight: 600;
-  margin-top: 150px;
-   color: #fff;
-   padding-bottom: 10px;
-
-}
-
-.section-4 {
-  display: flex;
-  justify-content: left;
-  background-color:transparent;
-  padding: 20px;
-  gap: 60px;
-  flex-direction: row;
-
-  
-  
-}
-
-
-
-.address-text {
-  font-size: 13px;
-}
-
-.phone-logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-  color: #808080; /* Grey color */
-}
-
-.phone-text {
-  font-family: Arial, sans-serif;
-  color: #1f43e2;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-
-
-.footer-sections {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  
-  color: #808080;
-  gap:100px;
-  margin-top: 0;
-  
-  
-}
-.section-e {
-  display: flex;
-  width: 100%;
-  height: fit-content;
-  flex-direction:row;
-  height: 500px;
-
-
-}
-
-.footer-column {
-  display:flex;
-  flex-direction: column;
-  width: fit-content;
-  
- list-style-type: none;
- line-height: 25px;
- margin-top: 0;
- align-items: start;
-  list-style: none;
-
-}
-
-.footer-column h4 {
-  margin-bottom:0
-}
-
-.icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  background-color: #0d71e2; 
-  border-radius: 50%;         
-  padding: 3px;
-  margin-left: 5px;
-  margin-right: 12px;;              
-          
-}
-.icon-wrapper1 {
-   display: inline-flex;
-  align-items: center;
-  justify-content: left;
-  border-radius: 50%;         
-  padding: 3px;               
-  margin-right: 8px;       
-}
-
-li {
-  display: flex;
-  align-items: center;
-   list-style: none; /* Vertically center icon and text */
-}
-.icon-wrapper1 svg {
-  fill: #007BFF;
-}
-.icon-wrapper svg {
-  fill: white;  /* Makes the icon white */
-}
-.footer-item {
-  flex: 1;
-  text-align: left;
-  color: #f5f3f3;
-  font-size: 14px;
-  padding: 10px;
-  height: 35vh;
-  list-style-type: none;
-   list-style: none;
-}
-
-ul {
-  list-style-type: none; /* Removes bullet points */
-  padding-left: 0;        /* Optional: removes left indentation */
-}
-
- 
-.apple-logo {
-  width: 100px;
-  height: auto;
-}
-
-.location-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.location-text {
-  font-size: 16px;
-  color:#848282;
-}
-
-.loc-logo {
-  display: flex;
-  align-items: flex-start; /* Aligns items to the top */
-  gap: 8px;
-  font-size: 14px;
-  color: #8a8787;
-  margin-top: 0; /* Optional: ensure no extra margin */
-}
-
-.loc-logo svg {
-  margin-top: 0px;
-}
-
-.section-e {
-  margin-left: 20px;
-}
-
-
-
-
-
-}
-
-
-
-/* Tablet: 768px - 1023px */
-@media (max-width: 1023px) and (min-width: 768px) {
-
-  body {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-
-
-  .section-1 {
-  display: flex;
-  flex-direction: column; /* Stack children vertically */
-  width: 100%;
-  height: auto; /* Let it grow based on content */
-  background: url(/css-final-project-saas-unsolved/assets/bg/background-top.svg);
-  background-size: 100% 50%;     /* Stretch image to full width, half height */
-  background-position: top; 
-  background-repeat: no-repeat;
-
-}
-
-
-.section-3 {
-  display: flex;
-  flex-direction: column;
-  height:fit-content;
-  background-color: #003366;
-  margin-top: 30px;
-  margin-bottom: 10vm;
-  padding:2em30px;
-  justify-content: center;
-
-}
-  .horizontal-line {
-      position: absolute;
-      top: 50px; /* Half of circle height */
-      left: 28px;
-      right: 23px;
-      height: 2px;
-      background-color: #b2d3f4;
-      z-index: 0;
-      justify-items: center;
-      
-    }
-
-  .play4 {
-    display: flex;
-    justify-content: center;
-  }
-    
-  .headline1 {
-    display:flex;
-    width:100%;
-    align-content: center;
-    justify-items: center;
-    font-size: 32px;
-  }
-
-  .subhead {
-    font-size: 1rem;
-    display: flex;
-    justify-self: center;
-    
-  }
-
-  .section-2 {
-    width: 100%;
-  }
-
-
-.sectionf1-c {
-  font-style: italic;
-  color: #fff;
-  
-  line-height: 28px;
-  width: 320px;
-  border-top: #848282 solid 2px;
-  padding-top: 30px;
-
-}
-
-.section-f2 {
-  display: flex;
-  box-sizing: border-box;
- margin-right: 40px;
- margin-left: 40px;
- height:fit-content;
-
-}
-
-
-
-.section-4 {
-  margin: 20px;
-  height: fit-content;
-}
-
-.section-f1 {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding: 40px;
-  gap: 20px;
- 
-
-}
-
-.sectionf1-a,
-.sectionf1-b,
-.sectionf1-c,
-.sectionf1-d {
-  
-  background-color:transparent;
- 
- padding-bottom: 30px;
-   
-}
-
-
-.sectionf1-a  {
-  display: flex;
-  font-size: 32px;
-  font-weight: 600;
-   color: #fff;
-   padding-bottom: 10px;
-   width: 100%;
-
-}
-.sectionf1-b, .sectionf1-c {
-  width: 100%;
-}
-
-.section-f1 {
-  display: flex;
-  justify-content:left;
-  align-items: center;
-  width: 100%;
-  padding: 40px;
-  gap: 60px;
-}
-
-
-.sectionf1-left {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 30px;
-}
-
-
-.subset-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto; /* Let it grow based on children */
-  padding-bottom: 30px;
-}
-
-.subset-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
- 
-
-
-
-.text-row {
-  display: flex;
-  justify-content: left;
-  gap: 20px; /* Space between the two texts */
-  margin-top: 10px;
-  font-size: 13px;
-}
-
-   
-.career-row {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Space between the two items */
-  display: flex;
-  flex-wrap: nowrap; 
-}
-
-.highlight-box {
-  background-color: #007bff;
-  color: white;
-  padding: 3px 3px;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 10px;
-  display: flex;
-  flex-wrap: nowrap; 
-}
-
-.logo-circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 2px solid #000; /* Optional: border color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sectionf1-d {
-  display: flex;
-  flex-direction: column;
-}
-.textf-2 {
-  margin-bottom: 25px;
-}
-
-
-
-.e3-text {
-  display:flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
-.e3-text{
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
- 
-
-}
-
-
-.logo-grid {
-  position: relative;
-  width: 100%;
-  height: 30vh;
-  padding-bottom: 70px;
-}
-
-.logo-wrapper {
-  
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(249, 247, 247);
-  position: absolute;
-}
-.section2-e {
-  width: calc(50% - 20px); /* Two columns per row */
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: transparent;
-  height: 200px;
-  
-}
-
-.section-e {
-  display: flex;
-  width: 100%;
-  flex-direction:column;
-  height:fit-content;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  padding: 10px;
-  
-}
-.e3-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.textbelowprice {
-  display: flex;
-  align-items: center;
-  text-align:left;
-  font-size: 16px;
-  width: 100%;
-   border-top: 2px solid rgb(203, 199, 199);
-  word-spacing: 3px;
-  padding-top: 30px;
-
-}
-
-.button2 {
-  display: flex;
-  align-items: center;
-}
-
-
-
-
-.subset-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto; /* Let it grow based on children */
-  padding-bottom: 30px;
-  gap: 30px;
-}
-
-.circle-container {
-      text-align: center;
-      margin: 10px;
-      position: relative;
-      font-weight: bold ;
-      justify-self: flex-start;
-    }
-
-    .circle {
-      width: 80px;
-      height: 80px;
-      background-color: #b2d3f4;
-      border-radius: 50%;
-      position: relative;
-      margin-bottom: 10px;
-      justify-self: center;
-    }
-
-    .circle::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 10px;
-      height: 10px;
-      background-color: #003366;
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-.section-e1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-  width: 100%;
-  height: 50vh;
-}
-
-.section-d {
- height:10vh;
-}
-
-.logo-inside {
-  width: 60%;
-  height: 60%;
-  object-fit: contain;
-  
-}
-
-/* Positioning classes */
-.top-left {
-  width: 60px;
-  height: 60px;
-  top: 5%;
-  left: 20%;
-  
-}
-
-.top-right {
-  width: 90px;
-  height: 90px;
-  top: 5%;
-  right: 10%;
-  
-}
-
-.center {
-  width: 80px;
-  height: 80px;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.bottom-left {
-  bottom: 0;
-  left: 0;
-  margin-left: 25%;
-  margin-bottom: 2%;
-  width: 70px;
-  height: 70px;
-}
-
-.bottom-right {
-  width: 70px;
-  height: 70px;
-  bottom: 0;
-  right: 0;
-  right: 20%;
-}
-
-.mid-left {
-  width: 80px;
-  height: 80px;
-  top: 55%;
-  left: 5%;
-  transform: translateY(-60%);
-
-}
-
-.mid-right {
-  width: 80px;
-  height: 80px;
-  top: 55%;
-  right: 40%;
-  transform: translateY(-50%);
-}
-.play-btn2{
-  display: flex;
-  align-items: center;
-  gap: 8px; /* space between icon and text */
-  border: none;
-  border-radius: 30px;
-  background-color: #007BFF; /* Bootstrap blue */
-  color: white;
-  font-size: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-align: center;
-  white-space: nowrap;
- padding: 10px;  
- width: 120px;
-
-}
-.play-btn2:hover{
-  background-color: #0056b3;
-}
-
-.below-button {
-  margin-top: 10px;
-  color: #848282;
-  font-size: small;
-}
-
-.button2 {
-  display: flex;
-  flex-direction: column;
-  width:100%;
-  padding-top: 30px;
-  
-}
-
-.section-ee {
-  display: flex;
-  flex-wrap: wrap; /* Enables wrapping */
-  gap: 40px;
-  width:auto;
-  height: 500px;
-  margin-right: 30px;
-}
-
-
-  .nav-section ul,
-  .buy-now-btn {
-    display: none;
-  }
-  
-  
-  .subset-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .subset-1, .subset-2 {
-    width: 100%;
-    display:flex;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .section-4 {
-  display: flex;
-  justify-content: left;
-  background-color:transparent;
-  padding: 20px;
-  gap: 60px;
-  flex-direction: row;
-  margin-top: 2vw;
-  padding: 2em;
-  margin-bottom: 20vw;
-}
-
-
-.sectionf-1 {
-  display: flex;
-  flex-direction: column;
-  gap:30px;
-  margin-top: 40px;
-  width: 390px;
-  
-}
-
-
-.sectione2-text-row {
-  display: flex;
-  align-items: center;
-  width:fit-content;
-  
-}
-
-
-.sectione2-text {
-  width:fit-content; 
-}
-
-
-.sketch-tag {
-  padding: 4px 12px;
-  background-color: #eee;
-  border-radius: 20px;
-  font-size: 14px;
-  color: #333;
-  border: 1px solid #ccc;
-}
-
-
-.sectionf1-c{
-
-  text-align: left;
-}
-
-.address-text {
-  font-size: 13px;
-}
-
-.phone-logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-  color: #808080; /* Grey color */
-}
-
-.phone-text {
-  font-family: Arial, sans-serif;
-  color: #1f43e2;
-  font-size: 13px;
-  font-weight: 600;
-}
-.footer-sections {
-  width: 70%;
-  margin-left: auto; /* Pushes the container to the right */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 40px; /* Space between grid items */
-  padding: 20px;
-}
-
-.icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  background-color: #0d71e2; 
-  border-radius: 50%;         
-  padding: 3px;
-  margin-left: 5px;
-  margin-right: 12px;;              
-          
-}
-.icon-wrapper1 {
-   display: inline-flex;
-  align-items: center;
-  justify-content: left;
-  border-radius: 50%;         
-  padding: 3px;               
-  margin-right: 8px;       
-}
-
-li {
-  display: flex;
-  align-items: center;
-   list-style: none; /* Vertically center icon and text */
-}
-
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  color: #8a8787;
-  line-height: 25px;
-
-  
-}
-
-.icon-wrapper1 svg {
-  fill: #007BFF;
-}
-.icon-wrapper svg {
-  fill: white;  /* Makes the icon white */
-}
-.footer-item {
-  flex: 1;
-  text-align: left;
-  color: #f5f3f3;
-  font-size: 14px;
-  padding: 10px;
-  height: 35vh;
-  list-style-type: none;
-   list-style: none;
-}
-.sectione2-text2 {
-  background-color:transparent;
-  padding: 10px;
-  text-align: left;
-  color: #848282;
-  width: auto;
-  margin-right: 20px;
-  padding-right: 20px;
-  display: flex;
-  word-spacing: 2px;
-  
-}
-
-.apple-logo {
-  width: 100px;
-  height: auto;
-}
-
-
-ul {
-  list-style-type: none; /* Removes bullet points */
-  padding-left: 0;   
-       /* Optional: removes left indentation */
-}
-.footer-column .highlight {
-  color: blue;
-  display: flex;
-  flex-wrap: nowrap; 
- 
-}
-
-
-
-}
-
-/*Mobile*//*Mobile*/
-/*Mobile*//*Mobile*/
-
-@media (max-width: 767px) and (min-width: 360px)  {
- body {
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 10px;
-  margin-right:10px;
-
-}
- 
-.section-1{ background-image: url('/css-final-project-saas-unsolved/assets/bg/background-top.svg') ;
-
-  background-size: 100% 60%;   /* Width 100%, height 100px */
-  background-repeat: no-repeat;
-  background-position: top center;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  width: 100%;
-
-}
-.subhead {text-align: center;
-  width: 50%;
-  display: flex;
-  align-self: center;
-  justify-self: center;
-}
-
-.play4 {display: flex;
- align-content: center;
- justify-content: center;
- margin-bottom: 30px;
- flex-direction: row;}
-
-.icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  background-color: #0d71e2; 
-  border-radius: 50%;         
-  padding: 3px;
-  margin-left: 5px;
-  margin-right: 12px;;              
-          
-}
-.icon-wrapper1 {
-   display: inline-flex;
-  align-items: center;
-  justify-content: left;
-  border-radius: 50%;         
-  padding: 3px;               
-  margin-right: 8px;       
-}
-
-li {
-  display: flex;
-  align-items: center; /* Vertically center icon and text */
-}
-.icon-wrapper1 svg {
-  fill: #007BFF;
-}
-.icon-wrapper svg {
-  fill: white;  /* Makes the icon white */
-}
-
-
-ul {
-  list-style-type: none; /* Removes bullet points */
-  padding-left: 0;        /* Optional: removes left indentation */
-}
-
- 
-.apple-logo {
-  width: 100px;
-  height: auto;
-}
-
-.section-b {
-  display: flex;
-  width: 30vh;
-  text-align: center;
-}
-
-.location-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.location-text {
-  font-size: 16px;
-  color:#848282;
-}
-
-.loc-logo {
-  display: flex;
-  align-items: flex-start; /* Aligns items to the top */
-  gap: 8px;
-  font-size: 14px;
-  color: #8a8787;
-  margin-top: 0; /* Optional: ensure no extra margin */
-}
-
-.loc-logo svg {
-  margin-top: 0px;
-} 
-  .logo-circle {
-    width: 30vw;
-    max-width: 100px;}
-    
-.subset-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
- .subset-1, .subset-2 {
-  background-color: transparent;
-
-    width: 100%;
-  }
-
-
-
-.headline {
-  font-size: 1em;
-  width: auto;
-  text-align: center;
-}
-
-.subhead {
-  font-size: 1.2rem;
-}
-
-  .play-btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .location-f {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .section-c {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 40vh;
-    margin-left: 30px;
-    
-  }
-
-
-
-
-
-.section-f1 {
-  display: flex;
-  flex-direction: column;
-  gap:30px;
-  margin-top: 40px;
-  align-items: center;
-  
-}
-
-.address-text {
-  font-size: 13px;
-}
-
-
-
-.phone-logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-  color: #808080; /* Grey color */
-}
-
-.phone-text {
-  font-family: Arial, sans-serif;
-  color: #1f43e2;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.section-4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-
-.footer-sections {
-  display: flex;
-  justify-content: center; /* Center columns horizontally */
-  align-items: center; /* Align columns to the top */
-  gap: 40px;
-  flex-direction: column;
-  padding: 40px 0;
-}
-
-.footer-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;     /* Center all content inside each column */
-  text-align: center;
-  list-style-type: none;
-}
-
-.footer-column h4 {
-  margin-bottom: 10px;
-}
-
-.footer-column ul {
- color: #848282;
- list-style: none;
- padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;     /* Center the list items */ 
-}
-
-.footer-column .highlight {
-  color: blue;
-  display: flex;
-  flex-wrap: nowrap; 
-   /* Optional */
-}
-
-
-.footer-column li {
-  margin: 5px 0;
-  list-style: none;
-}
-
-.nav-section ul,
-  .buy-now-btn {
-    display: none;
-  }
-.logo-grid {
-  position: relative;
-  width: 100%;
-  height: 30vh;
-  padding-bottom: 70px;
-  background-color:transparent;
-  
-}
-
-.logo-wrapper {
-  
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(249, 247, 247);
-  position: absolute;
-}
-
-
-.logo-inside {
-  width: 60%;
-  height: 60%;
-  object-fit: contain;
-  
-}
-
-
-/* Positioning classes */
-.top-left {
-  width: 60px;
-  height: 60px;
-  top: 5%;
-  left: 20%;
-  
-}
-
-.top-right {
-  width: 90px;
-  height: 90px;
-  top: 5%;
-  right: 10%;
-  
-}
-
-.center {
-  width: 80px;
-  height: 80px;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.bottom-left {
-  bottom: 0;
-  left: 0;
-  margin-left: 25%;
-  margin-bottom: 2%;
-  width: 70px;
-  height: 70px;
-}
-
-.bottom-right {
-  width: 70px;
-  height: 70px;
-  bottom: 0;
-  right: 0;
-  right: 20%;
-}
-
-.mid-left {
-  width: 80px;
-  height: 80px;
-  top: 55%;
-  left: 5%;
-  transform: translateY(-60%);
-
-}
-
-.mid-right {
-  width: 80px;
-  height: 80px;
-  top: 55%;
-  right: 40%;
-  transform: translateY(-50%);
-}
-
-.horizontal-line {
-  height: 0;
-}
-
-
-.section-c {
-  display: grid;
-  row-gap: 15px;         /* Space between rows */
-  padding-left: 1rem;    /* Align all items 30px from the left */
-}
-
-.circle-container {
-  display: grid;
-  grid-template-columns: 120px auto; /* First column for circle, second for label */
-  align-items: center;
-  
-}
-
-
-
-.center {
-  width: 80px;
-  height: 80px;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.circle {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #80b2e7;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: rgb(42, 5, 137); /* or any color you prefer */
-}
-
-
-.circle-label {
-  font-size: 20px;
-  color: #333;
-}
-
-.section-d {
-  width: 100%;
-  word-spacing: 4px;
-  letter-spacing: 1px;
-}
-
-.section-b {
-  width: 100%;
-  padding: 30px;
-}
-
-.section-e {
-  display: flex;
-  width: 100%;
-  flex-direction:column;
-  height:fit-content;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin-top: 10vh;
-  
-}
-.e3-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.textbelowprice {
-  display: flex;
-  align-items: center;
-  text-align:left;
-  font-size: 16px;
-  width: 100%;
-  word-spacing: 3px;
-  border-top: 2px solid rgb(154, 150, 150);
-padding-top: 30px;
-
-}
-
-.button2 {
-  display: flex;
-  align-items: center;
-}
-
-
-.section-e1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-  width: 80%;
-  height: 50vh;
-}
-
-.section-d {
- height:10vh;
-}
-
-.logo-inside {
-  width: 60%;
-  height: 60%;
-  object-fit: contain;
-  
-}
-
-/* Positioning classes */
-.top-left {
-  width: 60px;
-  height: 60px;
-  top: 5%;
-  left: 20%;
-  
-}
-
-.top-right {
-  width: 90px;
-  height: 90px;
-  top: 5%;
-  right: 10%;
-  
-}
-
-.center {
-  width: 80px;
-  height: 80px;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.bottom-left {
-  bottom: 0;
-  left: 0;
-  margin-left: 25%;
-  margin-bottom: 2%;
-  width: 70px;
-  height: 70px;
-}
-
-.bottom-right {
-  width: 70px;
-  height: 70px;
-  bottom: 0;
-  right: 0;
-  right: 20%;
-}
-
-.mid-left {
-  width: 80px;
-  height: 80px;
-  top: 55%;
-  left: 5%;
-  transform: translateY(-60%);
-
-}
-
-.mid-right {
-  width: 80px;
-  height: 80px;
-  top: 55%;
-  right: 40%;
-  transform: translateY(-50%);
-}
-.play-btn2{
-  display: flex;
-  align-items: center;
-  gap: 8px; /* space between icon and text */
-  border: none;
-  border-radius: 30px;
-  background-color: #007BFF; /* Bootstrap blue */
-  color: white;
-  font-size: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-align: center;
-  white-space: nowrap;
- padding: 10px;  
- width: 120px;
-
-}
-.play-btn2:hover{
-  background-color: #0056b3;
-}
-
-.below-button {
-  margin-top: 10px;
-  color: #848282;
-  font-size: small;
-}
-
-.button2 {
-  display: flex;
-  flex-direction: column;
-  width:100%;
-  padding-top: 30px;
-  
-}
-
-.section-ee {
-  display: flex;
-  flex-direction: column; /* Enables wrapping */
-  gap: 40px;
-  width:100%;
-  margin-left: 100px;
-  height: fit-content;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-
-  .nav-section ul,
-  .buy-now-btn {
-    display: none;
-  }
-  
-  
-  .subset-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .subset-1, .subset-2 {
-    width: 100%;
-  }
-
-
-.section2-e{
-  width:80%;
-}
-
-
-.section-3 {
-  display: flex;
-  flex-direction: column;
-  height:fit-content;
-  background-color: #003366;
-  margin-top: 30px;
-  margin-bottom: 10vm;
-  padding:2em;
-
-}
-
-
-.sectionf1-c {
-  font-style: italic;
-  color: #fff;
-  
-  line-height: 28px;
-  width: 320px;
-  border-top: #848282 solid 2px;
-  padding-top: 30px;
-
-}
-
-.section-f2 {
-  display: flex;
-  box-sizing: border-box;
- margin-right: 40px;
- margin-left: 40px;
- height:fit-content;
-
-
-}
-
-
-
-.section-4 {
-  margin: 20px;
-  height: fit-content;
-  padding: 30px;
-  margin:10px;
-  margin-top: 60px;
-}
-
-.section-f1 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
- 
-
-}
-
-.sectionf1-a,
-.sectionf1-b,
-.sectionf1-c,
-.sectionf1-d {
-  
-  background-color:transparent;
- 
- padding-bottom: 30px;
-   
-}
-
-
-.sectionf1-a  {
-  display: flex;
-  font-size: 32px;
-  font-weight: 600;
-   color: #fff;
-   padding-bottom: 10px;
-   width: 100%;
-   align-items: center;
-   justify-content: center;
-
-}
-.sectionf1-b, .sectionf1-c {
-  width: 100%;
-  text-align: center;
-}
-
-.sectionf1-b{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.sectionf1-left {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-align: center;
-}
-
-
-.subset-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto; /* Let it grow based on children */
-  padding-bottom: 30px;
-}
-
-.subset-1,
-.subset-2 {
-  flex: 1;
-  width: 100%;
-  height: auto; /* Let them grow based on content */
-  padding-bottom: -80px;
-  
-}
-
-.text-row {
-  display: flex;
-  justify-content: left;
-  gap: 20px; /* Space between the two texts */
-  margin-top: 10px;
-  font-size: 13px;
-}
-
-
-
-.logo-circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 2px solid #000; /* Optional: border color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sectionf1-d {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
-}
-.textf-2, .textf-1, .logo-circle {
-  margin-bottom: 3px;
-  text-align: center;
-  align-items: center;
-  justify-self: center;
-}
-
-
-
-.e3-text {
-  display:flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
-.e3-text{
-  padding-top: 30px;
-  display: flex;
-  justify-content: center;
-  
-}
-
-.sectione2-text2 {
-  background-color:transparent;
-  padding: 10px;
-  text-align: left;
-  color: #848282;
-  width:fit-content;
-  
-  display: flex;
-  
-}
-.sectione2-text {
-  width: fit-content;
-}
-
-.logo-grid {
-  position: relative;
-  width: 100%;
-  height: 30vh;
-  padding-bottom: 70px;
-}
-
-.footer-column .highlight {
-  color: blue;
-  height: 15px;;
-  display: flex;
-  flex-wrap: nowrap; 
- 
-}
-.section-d {
- 
-  margin-bottom: 30px;
-  height: fit-content;
-  
-}
-  
-.section-e {
-  
-  margin-top: 50px;
-  padding: 5px;
-
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <div class="logo-upload">
+    <img src="./assets/logos/logo-front.svg" alt="Company Logo" class="company-logo">
+  </div>
+
+  <nav class="nav-section">
+    <button class="trigram" aria-label="Open Menu">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"/></svg> 
+    </button>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Learn</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Hire Us</a></li>
+    </ul>
+    <button class="buy-now-btn">Buy Now</button>
+  </nav>
+</header>
+
+<section class="section-1">
+  <div class="subset-container">
+    <div class="subset-1">
+      <section>
+        <h1 class="headline1">Empowering teams with the freedom</h1>
+        <p class="subhead">Own the unlimited power of web development</p>
+
+        <section class="play4">
+          <button class="play-btn" aria-label="Play Introduction Video">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="play-icon">
+              <path d="M64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576C178.6 576 64 461.4 64 320zM252.3 211.1C244.7 215.3 240 223.4 240 232L240 408C240 416.7 244.7 424.7 252.3 428.9C259.9 433.1 269.1 433 276.6 428.4L420.6 340.4C427.7 336 432.1 328.3 432.1 319.9C432.1 311.5 427.7 303.8 420.6 299.4L276.6 211.4C269.2 206.9 259.9 206.7 252.3 210.9z"/>
+            </svg>
+            <span>Play Video</span>
+          </button>
+          <p class="learn-more">Learn more</p>
+        </section>
+      </section>
+    </div>
+
+    <div class="subset-2">
+      <div class="logo-grid">
+        <div class="logo-wrapper top-left">
+          <img src="./assets/logos/google.png" alt="Google Logo" class="logo-inside" />
+        </div>
+        <div class="logo-wrapper top-right">
+          <img src="./assets/logos/asana.png" alt="Asana Logo" class="logo-inside" />
+        </div>
+        <div class="logo-wrapper center">
+          <img src="./assets/logos/atlassian.png" alt="Atlassian Logo" class="logo-inside" />
+        </div>
+        <div class="logo-wrapper bottom-left">
+          <img src="./assets/logos/google-ads.png" alt="Google Ads Logo" class="logo-inside" />
+        </div>
+        <div class="logo-wrapper bottom-right">
+          <img src="./assets/logos/calendar.png" alt="Calendar Logo" class="logo-inside" />
+        </div>
+        <div class="logo-wrapper mid-left">
+          <img src="./assets/logos/paypal.jpg" alt="PayPal Logo" class="logo-inside" />
+        </div>
+        <div class="logo-wrapper mid-right">
+          <img src="./assets/logos/weave.png" alt="Weave Logo" class="logo-inside" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-2">
+  <div class="section-a">
+    <h2 class="header-text2">Why Front?</h2>
+  </div>
+
+  <div class="section-b">
+    Front is a beautiful, fully responsive, and mobile-first project on the web — it is the starting point for creative sites.
+  </div>
+
+  <div class="section-c">
+    <div class="horizontal-line"></div>
+    <div class="circle-container"><div class="circle"><div class="dot"></div></div><div class="circle-label">Basic elements</div></div>
+    <div class="circle-container"><div class="circle"><div class="dot"></div></div><div class="circle-label">Components</div></div>
+    <div class="circle-container"><div class="circle"><div class="dot"></div></div><div class="circle-label">Combined components</div></div>
+    <div class="circle-container"><div class="circle"><div class="dot"></div></div><div class="circle-label">Page layout</div></div>
+  </div>
+
+  <!-- Pricing Section -->
+  <section class="section-d">
+    <h2 class="text-d">Pricing</h2>
+    <p class="text-d2">No additional cost. Pay for what you see.</p>
+  </section>
+<section class="section-e">
+   <div class="section-e1"> <div class="e3-content"> <div class="e3-text"> <div class="section-e3"> 59 
+
+  </div> 
+  <div class="section-e31"> /mo </div> </div>
+   <div class="textbelowprice">Start your Front business now. 100% guaranteed money back. No questions asked. </div> 
+  </div>
+   <div class="button2"> <button class="play-btn2"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="play-icon"> <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--> <path d="M64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576C178.6 576 64 461.4 64 320zM252.3 211.1C244.7 215.3 240 223.4 240 232L240 408C240 416.7 244.7 424.7 252.3 428.9C259.9 433.1 269.1 433 276.6 428.4L420.6 340.4C427.7 336 432.1 328.3 432.1 319.9C432.1 311.5 427.7 303.8 420.6 299.4L276.6 211.4C269.2 206.9 259.9 206.7 252.3 210.9z"/> </svg> Play Video </button>
+     <div class="below-button">No credit card required.</div> </div> 
+    </div> 
+  </div> 
+  <div class="section-ee"> <div class="section2-e" id="section2-e1"> <div class="sectione2-logo"> <img src="./assets/images/components.svg" alt="Logo 1" class="logo-inside" /> </div> 
+  <div class="sectione2-text">Hundreds of components</div> 
+  <div class="sectione2-text2">Achieve maximum productivity with minimum effort with Front and creat robust Limitless products.</div> </div> 
+  <div class="section2-e" id="section2-e2"> <div class="sectione2-logo"> <img src="./assets/images/images.svg"Logo 2" class="logo-inside" /> </div> 
+  <div class="sectione2-text">Images included</div> <div class="sectione2-text2">Images included. We made custom license for all our premium images in the front.</div> </div>
+   <div class="section2-e" id="section2-e3"> <div class="sectione2-logo"> <img src="./assets/images/cancel.svg" alt="Logo 3" class="logo-inside" /> </div>
+    <div class="sectione2-text"> <div class="sectione2-text-row"> <div class="sectione2-text">Cancel anytime</div>
+     <div class="sketch-tag">Sketch</div> </div> </div> 
+     <div class="sectione2-text2">If its not for you, just cancel, no hidden cost or fees.</div> </div> 
+     <div class="section2-e" id="section2-e4"> <div class="sectione2-logo"> <img src="./assets/images/moneyback.svg" alt="Logo 4" class="logo-inside" /> </div> 
+     <div class="sectione2-text">Money back</div> 
+     <div class="sectione2-text2">100% guarantee money back. No questions asked.</div> 
+    </div> </div> 
+  </div> 
+</div>
+ </section>
+</section>
+<div class="section-3">
+  <div class="section-f1">
+    <div class="sectionf1-left">
+      <div class="sectionf1-a">Hire Us</div>
+      <div class="sectionf1-b">Whatever your goal - we will get you there.</div>
+      <div class="sectionf1-c">"I love front! I love the ease of use, I love the fact that I have total creative freedom..."</div>
+    </div>
+    <div class="sectionf1-d">
+      <div class="textf-1">Charlotte Moore</div>
+      <div class="textf-2"> Head of Commercials, Slack</div>  
+      <div class="logo-circle">
+        <img src="./assets/images/man_one.jpg" alt="Logo" />
+      </div>
+    </div>
+  </div>
+
+  <div class="section-f2">
+    <h2>Fill out the form and we'll be in touch as soon as possible</h2>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="first-name"></label>
+        <input type="text" id="first-name" name="first-name" placeholder="First name" class="styled-input" />
+      </div>
+      <div class="form-group">
+        <label for="last-name"></label>
+        <input type="text" id="last-name" name="last-name" placeholder="Last name" class="styled-input" />
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group full-width">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email" class="styled-input" />
+      </div>
+    </div>
+
+    <div class="form-row2">
+      <div class="form-group two">
+        <label for="budget"></label>
+        <select id="budget" name="budget" class="styled-input">
+          <option value="" disabled selected>Budget</option>
+          <option value="100">$100</option>
+          <option value="200">$200</option>
+          <option value="300">$300</option>
+          <option value="400">$400</option>
+          <option value="500">$500</option>
+        </select>
+      </div>
+      <div class="form-group two">
+        <label for="country"></label>
+        <select id="country" name="country" class="styled-input">
+          <option value="" disabled selected>Country</option>
+          <option value="us">United States</option>
+          <option value="ca">Canada</option>
+          <option value="uk">United Kingdom</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group full-width">
+      <label for="comments"></label>
+      <textarea id="comments" name="comments" class="styled-textarea" rows="2" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
+      <div class="checkbox-row">
+        <input type="checkbox" id="agree">
+        <label for="agree">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</label>
+      </div>
+      <div class="text-row">
+        <a href="#" class="text-blue">View privacy policy</a>
+      </div>
+      <div class="button-row3">
+        <button class="get-started-btn">Get started</button>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="section-4">
+  <div class="sectionf-1">
+    <img src="./assets/logos/logo-front.svg" alt="Front Company Logo">
+
+    <address class="location-f">
+      <div class="loc-logo">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="15" height="15">
+          <path d="M541.9 139.5C546.4 127.7 543.6 114.3 534.7 105.4C525.8 96.5 512.4 93.6 500.6 98.2L84.6 258.2C71.9 263 63.7 275.2 64 288.7C64.3 302.2 73.1 314.1 85.9 318.3L262.7 377.2L321.6 554C325.9 566.8 337.7 575.6 351.2 575.9C364.7 576.2 376.9 568 381.8 555.4L541.8 139.4z"/>
+        </svg>
+        <span>1234 Apple Street, Cupertino, CA 95014</span>
+      </div>
+      <div class="phone-logo">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="15" height="15">
+          <path d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z"/>
+        </svg>
+        <a href="tel:+18005551234">(800) 555-1234</a>
+      </div>
+    </address>
+  </div>
+
+  <nav class="footer-sections" aria-label="Footer Navigation">
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li class="career-row">
+          <a href="#">Career</a> <span class="highlight-box">We're hiring!</span>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Hire Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Features</h4>
+      <ul>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Release Notes</a></li>
+        <li><a href="#">Integrations</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Documentation</h4>
+      <ul>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">API Reference</a></li>
+        <li><a href="#">Tech Requirements</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Resources</h4>
+      <ul>
+        <li><span class="icon-wrapper1">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="18" height="18">
+            <path d="M320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM288 224C288 206.3 302.3 192 320 192C337.7 192 352 206.3 352 224C352 241.7 337.7 256 320 256C302.3 256 288 241.7 288 224zM280 288L328 288C341.3 288 352 298.7 352 312L352 400L360 400C373.3 400 384 410.7 384 424C384 437.3 373.3 448 360 448L280 448C266.7 448 256 437.3 256 424C256 410.7 266.7 400 280 400L304 400L304 336L280 336C266.7 336 256 325.3 256 312C256 298.7 266.7 288 280 288z"/>
+          </svg></span>
+          <a href="#">Help</a>
+        </li>
+        <li><span class="icon-wrapper">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="8" height="8">
+            <path d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"/>
+          </svg>
+          </span>
+          <a href="#">Your Account</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</footer>
+
+
+
+</body>
+</html>
