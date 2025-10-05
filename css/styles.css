@@ -691,6 +691,19 @@ input {
   margin-top: 50px;
 }
 
+  .section-e1 {
+  width: 35%;
+  padding: 40px;
+  box-sizing: border-box;
+ display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  height: 550px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */  
+  
+}
+
 .section-ee {
   display: flex;
   flex-wrap: wrap; /* Enables wrapping */
@@ -2702,6 +2715,7 @@ select.styled-input {
 
 
 }
+
 
 
 
